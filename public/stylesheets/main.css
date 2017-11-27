@@ -1,7 +1,11 @@
-
 .row .flex {
 display: flex;
 flex-wrap: wrap;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .thumbnail img {
