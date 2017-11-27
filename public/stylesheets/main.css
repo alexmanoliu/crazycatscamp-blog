@@ -1,14 +1,13 @@
-
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .thumbnail img {
-    display: flex;
-  flex-wrap: wrap;
-    
+    width: 100%;
 }
 
 .thumbnail {
-    height: 300px;
-    width: 300px;
     padding: 0;
 }
 
@@ -20,4 +19,3 @@
 .delete-form {
     display: inline;
 }
-
