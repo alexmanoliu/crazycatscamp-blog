@@ -1,16 +1,9 @@
-.row .flex {
-display: flex;
-flex-wrap: wrap;
-}
 
-.flex {
-  display: flex;
-  flex-wrap: wrap;
-}
 
 .thumbnail img {
-    width: 300px;
-    height: 300px;
+    display: flex;
+  flex-wrap: wrap;
+    
 }
 
 .thumbnail {
