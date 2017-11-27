@@ -1,6 +1,6 @@
 
 .thumbnail img {
-    width: 33%;
+    width: 100%;
     display: flex;
   flex-wrap: wrap;
 }
