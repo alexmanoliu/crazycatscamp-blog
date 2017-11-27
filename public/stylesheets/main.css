@@ -1,10 +1,8 @@
-.flex {
-  display: flex;
-  flex-wrap: wrap;
-}
 
 .thumbnail img {
-    width: 100%;
+    width: 33%;
+    display: flex;
+  flex-wrap: wrap;
 }
 
 .thumbnail {
