@@ -16,7 +16,9 @@ var commentRoutes    = require("./routes/comments"),
     campgroundRoutes = require("./routes/campgrounds"),
     indexRoutes      = require("./routes/index")
     
-mongoose.connect("mongodb://alxmnl88:hatzqi@ds123146.mlab.com:23146/crazycatscamp");
+mongoose.connect(process.env.DATABASEURL);    
+//mongoose.connect("mongodb://alxmnl88:hatzqi@ds123146.mlab.com:23146/crazycatscamp");
+
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
